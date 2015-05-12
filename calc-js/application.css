@@ -1,0 +1,15 @@
+.border {
+  border-width: 7px;
+  border-style: double;
+}
+.mx-auto{
+  margin-left: 2%;
+}
+
+.button, button {
+  margin: 1px;
+}
+
+.field-light{
+  border-width: 6px;
+}

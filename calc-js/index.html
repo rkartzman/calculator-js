@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/6.1.4/basscss.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="application.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="app.js"></script>
+  <title>Calculator-JS</title>
+  <body>
+    <h1>Calculator Js</h1>
+    <h3></h3>
+    <textarea id="output" class="block field-light"></textarea>
+    <div class="mx-auto">
+    <div class="clearfix">
+      <button class="md-col button mb1" onclick="myFunction(this)">1</button>
+      <button class="md-col button mb1" onclick="myFunction(this)">2</button>
+      <button class="md-col button mb1" onclick="myFunction(this)">3</button>
+    </div>
+
+    <div class="clearfix">
+      <button class="md-col button mb1" onclick="myFunction(this)">4</button>
+      <button class="md-col button mb1" onclick="myFunction(this)">5</button>
+      <button class="md-col button mb1" onclick="myFunction(this)">6</button>
+    </div>
+
+    <div class="clearfix">
+      <button class="md-col button mb1" onclick="myFunction(this)">7</button>
+      <button class="md-col button mb1" onclick="myFunction(this)">8</button>
+      <button class="md-col button mb1" onclick="myFunction(this)">9</button>
+    </div>
+
+    <div class="clearfix">
+      <button class="md-col button mb1" onclick="dispatchOperation(this)"> + </button>
+      <button class="md-col button mb1" onclick="dispatchOperation(this)"> - </button>
+      <button class="md-col button mb1" onclick="dispatchEquals(this)"> = </button>
+    </div>
+    <div class="clearfix">
+      <button class="md-col button mb1" onclick="dispatchOperation(this)"> * </button>
+      <button class="md-col button mb1" onclick="dispatchOperation(this)"> / </button>
+    </div>
+
+    <div class="clearfix">
+      <button class="md-col button mb1" onclick="dispatchClear()">CLEAR</button>
+    </div>
+  </div>
+
+  </body>
+</head>
+</html>
+
+
+ <!--      <div class="clearfix">
+      <div class="md-col border border-blue" onclick="myFunction(this)">1</div>
+      <div class="md-col border border-blue" onclick="myFunction(this)">2</div>
+      <div class="md-col border border-blue" onclick="myFunction(this)">3</div>
+    </div> -->
+
+     <!--     <div class="clearfix">
+      <div class="md-col border border-blue" onclick="myFunction(this)">4</div>
+      <div class="md-col border border-blue" onclick="myFunction(this)">5</div>
+      <div class="md-col border border-blue" onclick="myFunction(this)">6</div>
+    </div> -->
+
+    <!--      <div class="clearfix">
+      <div class="md-col border border-blue" onclick="myFunction(this)">7</div>
+      <div class="md-col border border-blue" onclick="myFunction(this)">8</div>
+      <div class="md-col border border-blue" onclick="myFunction(this)">9</div>
+    </div> -->
+
+    <!--     <div class="clearfix">
+      <div class="md-col border border-blue" onclick="dispatchOperation(this)"> + </div>
+      <div class="md-col border border-blue" onclick="dispatchOperation(this)"> - </div>
+      <div class="md-col border border-blue" onclick="dispatchOperation(this)"> * </div>
+      <div class="md-col border border-blue" onclick="dispatchOperation(this)"> / </div>
+      <div class="md-col border border-blue" onclick="dispatchEquals()"> = </div>
+    </div> -->
+      <!-- <div class="md-col border border-blue"onclick="dispatchClear()">CLEAR</div> -->
